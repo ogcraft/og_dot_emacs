@@ -1,4 +1,8 @@
+<<<<<<< HEAD
 # this is a Clojure-friendly emacs config
+=======
+# This is a Clojure-friendly emacs config
+>>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 
 If you're new to emacs, check out
 [this introductory tutorial](http://www.braveclojure.com/basic-emacs/)!
