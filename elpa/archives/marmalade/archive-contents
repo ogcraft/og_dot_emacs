@@ -80,12 +80,9 @@
  (wxwidgets-help .
 		 [(0 0 3)
 		  nil "Look up wxWidgets API by using local html manual." tar])
-<<<<<<< HEAD
  (wsd-mode .
 	   [(0 2 0)
 	    nil "Emacs major-mode for www.websequencediagrams.com" tar])
-=======
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (ws-trim .
 	  [(1 4)
 	   nil "Tools and minor mode to trim whitespace on text lines" single])
@@ -119,11 +116,7 @@
    [(1 1)
     nil "Poor-man's namespaces for elisp" single])
  (wisp-mode .
-<<<<<<< HEAD
 	    [(0 2)
-=======
-	    [(0 1 5)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 	     nil "Tools for wisp: the Whitespace-to-Lisp preprocessor" single])
  (wisp .
        [(0 1 4)
@@ -273,11 +266,7 @@
 	[(0 1)
 	 nil "vcard parsing and display routines" single])
  (vc-tfs .
-<<<<<<< HEAD
 	 [(0 1 3)
-=======
-	 [(0 1 2)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 	  nil "Support for TFS version control system" single])
  (vc-darcs .
 	   [(1 12)
@@ -375,11 +364,7 @@
 	     [(0 1 1)
 	      nil "Major mode for editing typescript" single])
  (twittering-mode .
-<<<<<<< HEAD
 		  [(3 0 1)
-=======
-		  [(2 0 0)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 		   nil "Major mode for Twitter" single])
  (twilight-theme .
 		 [(1 0 0)
@@ -498,14 +483,11 @@
  (test-case-mode .
 		 [(0 1 9)
 		  nil "unit test front-end" single])
-<<<<<<< HEAD
  (template .
 	   [(0 1 0)
 	    ((request
 	      (20140316 417)))
 	    "create project templates in Emacs easily" single])
-=======
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (telepathy .
 	    [(0 1)
 	     nil "Access Telepathy from Emacs" single])
@@ -702,11 +684,7 @@
 		   (0 0 2)))
 		 "Major mode for dealing with sprint.ly" single])
  (spotify .
-<<<<<<< HEAD
 	  [(0 3)
-=======
-	  [(0 2)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 	   nil "Control the spotify application from emacs" single])
  (speck .
 	[(2010 5 25)
@@ -715,15 +693,10 @@
 	      [(0 8 4)
 	       nil "Edit and interactively evaluate SPARQL queries." tar])
  (sparkline .
-<<<<<<< HEAD
 	    [(1 0 2)
 	     ((cl-lib
 	       (0 3)))
 	     "Make sparkline images from a list of numbers" single])
-=======
-	    [(0 3 0)
-	     nil "Make sparkline images from a list of numbers" single])
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (sourcetalk .
 	     [(1 2 0)
 	      ((request
@@ -898,14 +871,11 @@
  (shadchen .
 	   [(1 4)
 	    nil "pattern matching for elisp" single])
-<<<<<<< HEAD
  (shackle .
 	  [(0 1 1)
 	   ((cl-lib
 	     (0 5)))
 	   "Enforce rules for popups" single])
-=======
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (setup-cygwin .
 	       [(21 0)
 		nil "Set up Emacs for using Cygwin" single])
@@ -1542,7 +1512,6 @@
  (org2nikola .
 	     [(0 0 8)
 	      nil "export html and meta data used by static blog like nikola from org file" tar])
-<<<<<<< HEAD
  (org2jekyll .
 	     [(0 0 8)
 	      ((dash
@@ -1550,8 +1519,6 @@
 	       (s
 		(1 9 0)))
 	      "Minor mode to publish org-mode post to jekyll without specific yaml" single])
-=======
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (org2blog .
 	   [(0 5)
 	    ((org
@@ -1615,11 +1582,7 @@
 	       (6 1)))
 	     "basic support for magit links" single])
  (org-journal .
-<<<<<<< HEAD
 	      [(1 6 4)
-=======
-	      [(1 6 1)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 	       nil "a simple org-mode based journaling mode" single])
  (org-gnome .
 	    [(0 1)
@@ -1629,11 +1592,7 @@
 	       (0 1)))
 	     "Orgmode integration with the GNOME desktop" single])
  (org-email .
-<<<<<<< HEAD
 	    [(3 0 1)
-=======
-	    [(3 0 0)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 	     ((shadchen
 	       (1 2))
 	      (dash
@@ -1659,13 +1618,8 @@
 	       [(0 5)
 		nil "Org-mode and Cua mode compatibility layer" single])
  (org-cliplink .
-<<<<<<< HEAD
 	       [(0 2)
 		nil "insert org-mode links by URL from the clipboard" single])
-=======
-	       [(0 1 1)
-		nil "a simple command that takes a URL from the clipboard and inserts an org-mode link with a title of a page found by the URL into the current buffer" single])
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (org-blog .
 	   [(1 18 1 1)
 	    nil "create and publish a blog with org-mode" single])
@@ -1734,20 +1688,6 @@
 		    (javap-mode
 		     (9)))
 		   "decompilation extension for nrepl.el" single])
-<<<<<<< HEAD
-=======
- (nrepl .
-	[(0 2 0)
-	 ((clojure-mode
-	   (2 0 0))
-	  (cl-lib
-	   (0 3))
-	  (dash
-	   (2 1 0))
-	  (pkg-info
-	   (0 1)))
-	 "Client for Clojure nREPL" single])
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (notmuch-labeler .
 		  [(0 1)
 		   nil "Improves notmuch way of displaying labels through fonts, pictures, and hyperlinks." tar])
@@ -1989,11 +1929,7 @@
 	       [(1 0 0)
 		nil "collection of faces for markup language modes" single])
  (markdown-toc .
-<<<<<<< HEAD
 	       [(0 0 7)
-=======
-	       [(0 0 6)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 		((markdown-mode
 		  (2 0))
 		 (dash
@@ -2092,11 +2028,7 @@
       [(0 0 2)
        nil "lxc integration with Emacs" single])
  (lui .
-<<<<<<< HEAD
       [(1 5)
-=======
-      [(1 4)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
        ((tracking
 	 (1 5)))
        "Linewise User Interface" tar])
@@ -2257,11 +2189,7 @@
 	[(0 1 0)
 	 nil "Karma Test Runner Emacs Integration" single])
  (kanban .
-<<<<<<< HEAD
 	 [(0 1 3)
-=======
-	 [(0 1 2)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 	  nil "Parse org-todo headlines to use org-tables as Kanban tables" single])
  (jump-dls .
 	   [(0 6)
@@ -2402,7 +2330,6 @@
  (inf-groovy .
 	     [(2 0)
 	      nil "minor-mode that adds some Grails project management to a grails project" single])
-<<<<<<< HEAD
  (inf-clojure .
 	      [(1 0 0)
 	       ((emacs
@@ -2410,8 +2337,6 @@
 		(clojure-mode
 		 (4 0)))
 	       "an inferior-clojure mode" single])
-=======
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (immutant-server .
 		  [(1 0 1)
 		   nil "Run your Immutant server in Emacs" single])
@@ -2497,11 +2422,7 @@
 	    (0 0 6)))
 	  "chainsaw powered logging" single])
  (hungry-delete .
-<<<<<<< HEAD
 		[(1 1 2)
-=======
-		[(1 1)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 		 nil "hungry delete minor mode" single])
  (httpd .
 	[(1 0 1)
@@ -2787,12 +2708,9 @@
  (gitconfig .
 	    [(1 0 0)
 	     nil "Emacs lisp interface to work with git-config variables" single])
-<<<<<<< HEAD
  (gitattributes-whitespace .
 			   [(1 20141128)
 			    nil "configure whitespace settings from gitattributes" single])
-=======
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (git-gutter-fringe .
 		    [(0 12)
 		     ((git-gutter
@@ -3103,7 +3021,6 @@
 			      (24 1)))
 			    "Change mode line color with Flycheck status" single])
  (flycheck-cask .
-<<<<<<< HEAD
 		[(0 2 1)
 		 ((emacs
 		   (24 1))
@@ -3114,27 +3031,12 @@
 		 "Cask support in Flycheck" single])
  (flycheck .
 	   [(0 22)
-=======
-		[(0 1)
-		 ((flycheck
-		   (0 14))
-		  (dash
-		   (2 0 0))
-		  (f
-		   (0 6 0)))
-		 "Cask support in Flycheck" single])
- (flycheck .
-	   [(0 21)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 	    ((dash
 	      (2 4 0))
 	     (pkg-info
 	      (0 4))
-<<<<<<< HEAD
 	     (let-alist
 	      (1 0 1))
-=======
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 	     (cl-lib
 	      (0 3))
 	     (emacs
@@ -3297,11 +3199,7 @@
 			    (0)))
 			  "evil textobjects based on indentation" single])
  (evil-escape .
-<<<<<<< HEAD
 	      [(1 6 0)
-=======
-	      [(1 5 1)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 	       ((emacs
 		 (24))
 		(evil
@@ -3585,11 +3483,7 @@
 	      [(0 1 4)
 	       nil "Egison editing mode" single])
  (editorconfig .
-<<<<<<< HEAD
 	       [(0 4)
-=======
-	       [(0 3)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 		nil "EditorConfig Emacs extension" single])
  (edit-list .
 	    [(0 4)
@@ -3770,11 +3664,7 @@
 		     (24)))
 		   "Collection of useful combinators for Emacs Lisp" single])
  (dash .
-<<<<<<< HEAD
        [(2 10 0)
-=======
-       [(2 9 0)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 	nil "A modern list library for Emacs" single])
  (dart-mode .
 	    [(0 9)
@@ -3813,13 +3703,8 @@
 	 [(0 1 1)
 	  nil "Table component for Emacs Lisp" single])
  (csharp-mode .
-<<<<<<< HEAD
 	      [(0 8 8)
 	       nil "C# mode derived mode" tar])
-=======
-	      [(0 8 6)
-	       nil "C# mode derived mode" single])
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (cryptol-mode .
 	       [(0 1 0)
 		nil "Cryptol major mode for Emacs" single])
@@ -4012,14 +3897,6 @@
 		       ((color-theme
 			 (6 6 1)))
 		       "A dark color theme for GNU Emacs." single])
-<<<<<<< HEAD
-=======
- (color-theme-active .
-		     [(0 0 1)
-		      ((color-theme
-			(6 6 1)))
-		      "Active theme inspired by jEdit theme of the same name" single])
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (color-theme .
 	      [(6 6 1)
 	       nil "install color themes" single])
@@ -4069,16 +3946,6 @@
  (clojurescript-mode .
 		     [(0 5)
 		      nil "Major mode for ClojureScript code" single])
-<<<<<<< HEAD
-=======
- (clojure-test-mode .
-		    [(3 0 0)
-		     ((clojure-mode
-		       (1 7))
-		      (cider
-		       (0 4 0)))
-		     "Minor mode for Clojure tests" single])
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (clojure-project-mode .
 		       [(1 0)
 			((project-mode
@@ -4089,7 +3956,6 @@
 		   ((project-mode
 		     (1 0)))
 		   "Extends project-mode for Clojure projects" single])
-<<<<<<< HEAD
  (clojure-mode-extra-font-locking .
 				  [(3 0 0)
 				   ((clojure-mode
@@ -4100,20 +3966,11 @@
 		((emacs
 		  (24 1)))
 		"Major mode for Clojure code" single])
-=======
- (clojure-mode .
-	       [(2 1 1)
-		nil "Major mode for Clojure code" single])
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (clojure-here .
 	       [(0 11)
 		nil "Clojure process in a buffer" single])
  (clojure-env .
-<<<<<<< HEAD
 	      [(0 0 4)
-=======
-	      [(0 0 3)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 	       nil "manage clojure environments with Emacs" single])
  (cljsbuild-mode .
 		 [(0 2 0)
@@ -4154,7 +4011,6 @@
 	      [(0 0 2)
 	       nil "Major mode for editing Citrus files" single])
  (circe .
-<<<<<<< HEAD
 	[(1 5)
 	 ((lui
 	   (1 5))
@@ -4175,24 +4031,6 @@
 	   (24))
 	  (queue
 	   (0 1 1)))
-=======
-	[(1 4)
-	 ((lui
-	   (1 4))
-	  (lcs
-	   (1 1)))
-	 "Client for IRC in Emacs" tar])
- (cider .
-	[(0 6 0)
-	 ((clojure-mode
-	   (2 0 0))
-	  (cl-lib
-	   (0 3))
-	  (dash
-	   (2 4 1))
-	  (pkg-info
-	   (0 4)))
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 	 "Clojure Integrated Development Environment and REPL" tar])
  (chm-view .
 	   [(0 2 2)
@@ -4402,14 +4240,11 @@
  (anzu .
        [(0 22)
 	nil "Show number of matches in mode-line while searching" single])
-<<<<<<< HEAD
  (ansible-doc .
 	      [(0 2)
 	       ((emacs
 		 (24 1)))
 	       "Ansible documentation Minor Mode" single])
-=======
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
  (angular-snippets .
 		   [(0 2 3)
 		    ((s
@@ -4418,11 +4253,7 @@
 		      (1 2 0)))
 		    "Yasnippets for AngularJS" tar])
  (android-mode .
-<<<<<<< HEAD
 	       [(0 4 0)
-=======
-	       [(0 3 0)
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 		nil "Minor mode for Android application development" single])
  (anaphora .
 	   [(1 0 0)
@@ -4444,17 +4275,9 @@
 		  (1 11 5)))
 		"Space align various Clojure forms" single])
  (alchemist .
-<<<<<<< HEAD
 	    [(0 11 1)
 	     ((emacs
 	       (24)))
-=======
-	    [(0 6 0)
-	     ((emacs
-	       (24))
-	      (pkg-info
-	       (0 5)))
->>>>>>> 6da3641661a6386efa42b511c130c75866d40901
 	     "Elixir tooling integration into emacs" tar])
  (ahg .
       [(0 99)
