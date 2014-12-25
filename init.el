@@ -134,3 +134,6 @@
 (load "setup-js.el")
 
 (require 'dirtree)
+(require 'ensime)
+(add-hook 'scala-mode-hook 'ensime-scala-mode-hook)
+
