@@ -3,8 +3,7 @@
 ;;; Code:
 
 
-;;;### (autoloads (sbt-run-previous-command sbt-command run-scala
-;;;;;;  sbt-start) "sbt-mode" "sbt-mode.el" (21659 6350 663760 7000))
+;;;### (autoloads nil "sbt-mode" "sbt-mode.el" (21659 60275 0 0))
 ;;; Generated autoloads from sbt-mode.el
 
 (autoload 'sbt-start "sbt-mode" "\
@@ -42,8 +41,8 @@ sbt:default-command, if no other command has yet been run).
 
 ;;;***
 
-;;;### (autoloads (sbt-find-definitions sbt-find-usages sbt-grep)
-;;;;;;  "sbt-mode-rgrep" "sbt-mode-rgrep.el" (21659 6350 723760 6000))
+;;;### (autoloads nil "sbt-mode-rgrep" "sbt-mode-rgrep.el" (21659
+;;;;;;  60275 0 0))
 ;;; Generated autoloads from sbt-mode-rgrep.el
 
 (autoload 'sbt-grep "sbt-mode-rgrep" "\
@@ -64,8 +63,8 @@ Recursively grep for definition of ID in scala files in the directory tree roote
 ;;;***
 
 ;;;### (autoloads nil nil ("sbt-mode-buffer.el" "sbt-mode-comint.el"
-;;;;;;  "sbt-mode-pkg.el" "sbt-mode-project.el") (21659 6350 827084
-;;;;;;  207000))
+;;;;;;  "sbt-mode-pkg.el" "sbt-mode-project.el") (21659 60275 676000
+;;;;;;  0))
 
 ;;;***
 

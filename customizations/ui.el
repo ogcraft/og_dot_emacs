@@ -30,7 +30,7 @@
 ;;(load-theme 'tomorrow-night-bright t)
 
 ;; increase font size for better readability
-(set-face-attribute 'default nil :height 100)
+(set-face-attribute 'default nil :height 80)
 (set-face-attribute 'default nil :font  "Monaco" )
 (set-frame-font "Monaco" nil t)
 
@@ -38,7 +38,7 @@
 ;; values in order to set the width (in characters wide) and height
 ;; (in lines high) Emacs will have whenever you start it
 (setq initial-frame-alist '((top . 0) (left . 0)
-                             (width . 220) (height . 55)))
+                             (width . 120) (height . 40)))
 
 ;; These settings relate to how emacs interacts with your operating system
 (setq ;; makes killing/yanking interact with the clipboard
