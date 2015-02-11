@@ -30,7 +30,7 @@
 ;;(load-theme 'tomorrow-night-bright t)
 
 ;; increase font size for better readability
-(set-face-attribute 'default nil :height 80)
+(set-face-attribute 'default nil :height 100)
 (set-face-attribute 'default nil :font  "Monaco" )
 (set-frame-font "Monaco" nil t)
 
